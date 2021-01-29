@@ -1,5 +1,5 @@
 
-const tmdb_API='ccf679389a13f7cd8cfa4c0693d63931';
+const tmdb_API='tmdb API';
 var Data;
 var r_s;
 var menu = {
@@ -141,7 +141,6 @@ function median(data,x,y,z){
         }else{
             createtable(x,med,"Median");
         }
-        //document.getElementById("op2").innerHTML = med;
 }
 
 function standard(data,x,y,z){
@@ -171,8 +170,7 @@ function nullCount(data,x,y,z){
             return res;
         }else{
             createtable(x,res,"Null Count");
-        }
-        //document.getElementById("op2").innerHTML = res;  
+        } 
 }
 
 function count(data,x,y,z){
@@ -183,7 +181,6 @@ function count(data,x,y,z){
     }else{
         createtable(x,ct,"Count");
     }
-    //document.getElementById("op2").innerHTML = ct;
 }
 
 function createtable(x,y,z){
