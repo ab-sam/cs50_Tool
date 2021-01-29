@@ -1,0 +1,124 @@
+/* .main{
+    width:733px;
+    height:633px;
+    margin-left:50px;
+    border:2px solid #000;
+    background-color: #ecb7b7;
+    display: flex;
+} */
+
+
+/* .box{
+    width:633px;
+    height:283px;
+    margin-left:50px;
+    border:2px solid #000;
+    display: flex;
+} */
+
+.box_1{
+    width:730px;
+    height:50px;
+    border:2px solid #000;
+    font-size:30px;
+    background-color: #ff1a1a;
+    text-align: center;
+    /* font-family: Verdana, sans-serif; */
+    color: #fff;
+}
+.overall{
+    width: 100%;
+    font-family: Verdana, sans-serif;
+}
+
+.box1{
+    margin-left:50px;
+    width: 200px;
+    height: 280px;
+    font-size:20px;
+    float: left;
+    border:2px solid #000;
+    background: #c2c2d6;
+    text-align: center;
+}
+
+.box2{
+    margin-left:280px;
+    width: 400px;
+    height: 280px;
+    font-size:20px;
+    border:2px solid #000;
+    background: #c2c2d6;
+    text-align: center;
+}
+
+.box3{
+    margin-left:50px;
+    width: 630px;
+    height: 200px;
+    border:2px solid #000;
+    font-family: Verdana, sans-serif;
+}
+
+
+.dropdown-content {
+  background-color: #ffe6e6;
+  min-width: 140px;
+  min-height: 40px;
+  font-size:17px;
+  text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.button1 {
+  display: inline-block;
+  cursor: pointer;
+  width: 130px;
+  height: 35px;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ff0000;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 6px #999;
+}
+
+.button1:hover {background-color: #bfbfbf}
+
+.button1:active {
+  background-color: #f2f2f2;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size:16px;
+  width: 130px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ff0000;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 6px #999;
+}
+
+.button:hover {background-color: #bfbfbf}
+
+.button:active {
+  background-color: #f2f2f2;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+th, td{
+  border: 1px solid black;
+  padding: 5px;
+}
